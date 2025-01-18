@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your landing page description here">
+    <meta name="author" content="Your Name or Company Name">
+    <title>Product Selection</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #904caf;
+            color: rgb(49, 19, 146);
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Main Section */
+        .main-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            background-color: #f4f4f4;
+        }
+        .cta {
+            background-color: #333;
+            color: white;
+            padding: 1.5rem 3rem;
+            text-align: center;
+            border-radius: 25px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta:hover {
+            background-color: #555;
+        }
+
+        /* Content Section */
+        .content {
+            text-align: center;
+            padding: 3rem;
+        }
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to your World of headphone</h1>
+    </header>
+
+    <!-- Main Section with Call-to-Action -->
+    <section class="main-section">
+        <h2>Choose the Product</h2>
+        <p>Start your journey today with our amazing line of products</p>
+
+        <label for="dropdown">Choose an model </label>
+    <select id="dropdown">
+        <option value="option1">Sony</option>
+        <option value="option2">JBL</option>
+        <option value="option3">Oppo</option>
+        <option value="option4">Boat</option>
+        <option value="option5">Bose</option>
+    </select>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Company Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
